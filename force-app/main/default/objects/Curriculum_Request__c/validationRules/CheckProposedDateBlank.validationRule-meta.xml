@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CheckProposedDateBlank</fullName>
+    <active>true</active>
+    <errorConditionFormula>IsBlank(Proposed_Date__c)</errorConditionFormula>
+    <errorMessage>Proposed Date Cannot be blank</errorMessage>
+</ValidationRule>
